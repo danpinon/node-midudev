@@ -1,0 +1,21 @@
+### Gets home
+GET http://localhost:1234/
+
+### Gets ditto info
+GET http://localhost:1234/pokemon/ditto
+
+### Gets 404
+GET http://localhost:1234/asdfasdfasdf
+
+### Creates Pokemon
+POST http://localhost:1234/pokemon
+Content-Type: application/json
+
+{
+  "name": "ditto",
+  "type": "normal",
+  "moves": [
+    "transform"
+  ]
+}
+
