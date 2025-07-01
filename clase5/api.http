@@ -1,0 +1,39 @@
+### gets all movies
+GET http://localhost:1234/movies
+
+### gets all movies 'Action'
+GET http://localhost:1234/movies?genre=action
+
+### creates a movie
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+  "title": "Avatar 2",
+  "year": 2022,
+  "director": "James Cameron",
+  "duration": 162,
+  "poster": "https://i.etsystatic.com/35681979/r/il/dfe3ba/3957859451/il_fullxfull.3957859451_h27r.jpg",
+  "genre": ["Action", "Adventure", "Fantasy"],
+  "rate": 7.5
+}
+
+### gets a movie by id
+GET http://localhost:1234/movies/cbd06154-546c-11f0-865b-904fdc635ca1
+
+### deletes a movie by id
+DELETE http://localhost:1234/movies/e284242a-5602-11f0-865b-904fdc635ca1
+
+### updates a movie by id
+PATCH http://localhost:1234/movies/11a9c7ca-55f2-11f0-865b-904fdc635ca1
+Content-Type: application/json
+
+{
+  "year": 1993
+}
+
+### gets a movie by id not found
+GET http://localhost:1234/movies/1
+
+### gets movies by genre
+GET http://localhost:1234/movies?genre=Action
