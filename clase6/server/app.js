@@ -12,7 +12,7 @@ const app = express();
 dotenv.config();
 
 export const db = createClient({
-    url: "libsql://safe-supernaut-danpinon.aws-us-east-1.turso.io",
+    url: process.env.TURSO_DATABASE_URL,
     syncUrl: process.env.TURSO_DATABASE_URL,
     authToken: process.env.TURSO_AUTH_TOKEN,
 });
