@@ -1,0 +1,12 @@
+1. Install proyect
+2. Users database
+3. Users registration
+4. Basic auth with login and password
+5. Auth verification
+6. User cookie session
+7. Protected Routes
+8. Json web token
+9. Middleware refactorization
+10. Close session
+11. Refresh token
+12. Password OAuth2

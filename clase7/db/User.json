@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "99976279-6caa-47d6-afa6-6d6c7ad0d5bc",
+    "username": "dpjavascript3",
+    "password": "$2b$10$zKK/8zFTlPjoK1hhCgeTeu2uEPl0oeyT/2mYs7I8o8ChfN.WroDrm"
+  },
+  {
+    "_id": "9e2b9fa6-878f-496f-8710-9bbf7f9606ed",
+    "username": "dpjavascript2",
+    "password": "$2b$10$Quzz8Fxs6V4/diPRy1hgcOHONs.mNLbQnpyoKoRkYdlp5a6bbYKIO"
+  },
+  {
+    "_id": "9ffe2287-1f76-4fb7-9bc6-2a888755a9f7",
+    "username": "dpjavascript",
+    "password": "12345678"
+  }
+]
